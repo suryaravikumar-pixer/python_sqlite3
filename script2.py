@@ -8,7 +8,8 @@ def read():
     for row in rows:
         if name == row[1]:
             print(row)
-        else:
-            print("User Not Found")
+            break
+    else:
+        print("User Not Found")
     
 read()
